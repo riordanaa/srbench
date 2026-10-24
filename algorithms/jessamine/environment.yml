@@ -1,8 +1,8 @@
 channels:
     - conda-forge
 dependencies:
-    - python
-    - julia
+    - python=3.14  # jessaminescikitlearn requires Python >=3.14
+    - julia=1.12   # matches "julia": "1.12" in jessaminescikitlearn's juliapkg.json
     - pip
     - pip:
         - jessaminescikitlearn @ git+https://github.com/wgm-applied-math/jessaminescikitlearn.git@v0.3.0
