@@ -1,0 +1,8 @@
+channels:
+    - conda-forge
+dependencies:
+    - python
+    - julia
+    - pip
+    - pip:
+        - jessaminescikitlearn @ git+https://github.com/wgm-applied-math/jessaminescikitlearn.git@v0.3.0
