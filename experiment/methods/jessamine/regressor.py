@@ -7,7 +7,7 @@ hyper_params = [
         "op_inventory": [
             "Polynomial",
             "RationalFunction",
-            ],
+        ],
     },
     {
         "p_take_better": [
