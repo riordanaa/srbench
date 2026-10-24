@@ -1,0 +1,17 @@
+authors: # the participants
+  - W. Garrett Mitchener
+  - Aidan Riordan
+  - Latherial Calbert
+  - Aiden Camilleri
+email: garrett.mitchener@gmail.com
+name: Jessamine # name of the submission /method
+description: | # anything you'd like here to describe the method.
+  Evolutionary symbolic regression with a flat genome in iterated
+  static-single-assignment form. Each genome computes a set of derived
+  features; ridge regression combines them linearly, a general-purpose
+  optimizer fits scalar parameters, and an evolutionary search evolves
+  the features themselves.
+  Julia: https://github.com/wgm-applied-math/Jessamine.jl
+  Python: https://github.com/wgm-applied-math/jessaminescikitlearn
+
+url: https://github.com/wgm-applied-math/Jessamine.jl # a link to the project
