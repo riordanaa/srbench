@@ -5,14 +5,13 @@ model = JR.model
 hyper_params = [
     {
         "op_inventory": [
-            "Polynomial",
+            "+ - * / sqrt exp log sin cos",
             "RationalFunction",
         ],
-    },
-    {
-        "p_take_better": [
-            0.6,
-            0.7,
+        "lambda_op": [
+            1e-12,
+            1e-4,
+            1e-2,
         ],
     },
 ]
